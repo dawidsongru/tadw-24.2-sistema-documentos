@@ -13,6 +13,15 @@ pnpm dev
 # or
 bun dev
 ```
+Follow the tutorial to install mongodb on your machine.
+https://www.hostinger.com.br/tutoriais/instalar-mongodb-ubuntu#1_Instale_o_MongoDB
+
+In order to know if the MongoDB server is installed and currently running, run the following command:
+
+```bash
+sudo systemctl status mongod
+```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
